@@ -1,0 +1,175 @@
+/*bgcolor:#ff4c68;*/
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+.row {
+  text-align: left;
+}
+
+#title {
+  /*padding-bottom: 5%;*/
+  background-color: #ff4c68;
+}
+
+#title h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.6;
+  padding-bottom: 8%;
+  padding-top: 7%;
+}
+
+.nav-item {
+  margin-right: 30px;
+}
+
+.nav-link {
+  font-weight: lighter;
+  font-size: 135%;
+}
+
+.navbar {
+  padding: 0 0 5% 0;
+}
+
+.navbar-brand {
+  font-family: Ubuntu, sans-serif;
+  color: white;
+  font-size: 250%;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+  /*background-color: yellow;*/
+}
+
+.title-image {
+  position: absolute;
+  transform: rotate(25deg); /* Equal to rotateZ(45deg) */
+  width: 60%;
+  right: 24%;
+  display: inline-block;
+}
+
+.down-btn {
+  margin-right: 4%;
+  margin-bottom: 2%;
+}
+
+#features h3 {
+  font-size: 150%;
+  font-weight: bolder;
+}
+
+#features p {
+  font-weight: lighter;
+  color: #8f8f8f;
+}
+
+#features {
+  background-color: white;
+  position: relative;
+  /*z-index: 1;*/
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.feature-box {
+  padding: 3% 7%;
+  text-align: center;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 10%;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/*Testimonials Section*/
+
+#testimonials {
+  color: white;
+  text-align: center;
+  background-color: #ff4c68;
+}
+
+.carousel-item {
+  padding: 5% 15%;
+}
+
+#testimonials h2 {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 2.8rem;
+  margin: 0 auto 2%;
+  width: 80%;
+}
+
+#testimonials img {
+  width: 16%;
+  border-radius: 100%;
+  margin: 1% 2% 1% 10%;
+}
+
+#press {
+  text-align: center;
+  background-color: #ff4c68;
+  padding-bottom: 4%;
+}
+
+#press img {
+  width: 10%;
+  margin-right: 3%;
+}
+
+#pricing {
+  padding: 5% 12%;
+}
+
+#pricing h2,
+h3 {
+  font-weight: bold;
+}
+
+#pricing h2 {
+  font-size: 3rem;
+}
+
+#cta {
+  background-color: #ff4c68;
+  padding: 8% 15%;
+  text-align: center;
+}
+
+#cta h3 {
+  font-family: Ubuntu, sans-serif;
+  font-size: 4em;
+  color: white;
+}
+
+@media (max-width: 992px) {
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+
+  .row {
+    text-align: center;
+  }
+}
+
+#footer i {
+  margin-right: 2%;
+  margin-bottom: 1%;
+}
+
+#footer {
+  padding: 4% 15%;
+  text-align: center;
+}
